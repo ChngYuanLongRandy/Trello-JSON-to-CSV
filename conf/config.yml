@@ -1,0 +1,3 @@
+defaults:
+  - col_list: 'Words'
+  - input_path: 'local_path'
