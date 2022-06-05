@@ -1,3 +1,7 @@
-defaults:
-  - col_list: 'Words'
-  - input_path: 'local_path'
+files:
+  - master_path: 'data/store/'
+  - master_name: 'master'
+  - input_path: 'data/input/'
+  - input_name: 'new_words'
+  - col_name : 'word'
+  - output_path : 'data/ouput/'
