@@ -4,6 +4,7 @@ from datetime import datetime
 import logging
 import hydra
 
+
 FORMAT = "[%(asctime)s %(filename)s->%(funcName)s():%(lineno)s]%(levelname)s: %(message)s"
 logging.basicConfig(format=FORMAT, level=logging.INFO)
 
