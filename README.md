@@ -27,13 +27,16 @@ The input name will always need to be entered otherwise the script will fail
 `python convert.py files.input_name="new_words_12jun2022"`
 
 Tweak with hydra's configuration:
-```    files:
+
+```    
+files:
     master_path: 'data/store/'
     master_name: 'master'
     input_path: 'data/input/'
     input_name: 'new_words'
     col_name : 'Words'
-    output_path : 'data/output/'```
+    output_path : 'data/output/'
+```
 
 Once run, the csv will be generated under output path affixed with the col name and date time.
 
